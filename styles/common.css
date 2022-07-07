@@ -1,0 +1,12 @@
+html, body {
+    background-color: rgb(41, 41, 41);
+    font-family: 'Mingzat', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+

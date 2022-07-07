@@ -1,0 +1,65 @@
+.nav-wrapper {
+    background-color: rgb(121, 121, 121);
+    position: relative;
+    height: 80px;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: black 0px 0px 40px;
+}
+
+/* Left column styles */
+
+.nav-wrapper > .left-column img {
+    width: 80px;
+    height: auto;
+    filter: invert(100%);
+}
+
+/* Center column styles */
+
+.nav-wrapper > .center-column {
+    margin-top: -30px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-wrapper > .center-column > .links-wrapper {
+    order: 2;
+    margin-top: -30px;
+    justify-self: center;
+}
+
+/* Links animation */
+
+.nav-wrapper > .center-column > .links-wrapper > .link a {
+    transition: 0.5s;
+}
+
+.nav-wrapper > .center-column > .links-wrapper > .link a:hover {
+    color: gold;
+    letter-spacing: 0.2rem;
+}
+
+/* Right column styles */
+
+.nav-wrapper > .right-column > .desc {
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: small;
+    word-spacing: 0rem;
+}
+
+.nav-wrapper > .right-column > .desc > .p1 {
+    justify-self: center;
+    margin-right: 2px;
+}
+
+.nav-wrapper > .right-column > .desc > .p2 {
+    width: 200px;
+    margin-top: -6px;
+    text-align: center;
+}

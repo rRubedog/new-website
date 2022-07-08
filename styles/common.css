@@ -1,5 +1,7 @@
 html, body {
-    background-color: rgb(41, 41, 41);
+    /* background-image: linear-gradient(to right, rgb(62, 62, 62), rgb(19, 19, 19)); */
+    /* background-repeat: no-repeat; */
+    background-color: rgb(77, 77, 77);
     font-family: 'Mingzat', sans-serif;
     padding: 0px;
     margin: 0px;

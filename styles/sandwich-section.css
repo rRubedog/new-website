@@ -1,3 +1,61 @@
 .sandwich-section-wrapper {
-    
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Short sandie's styles */
+
+.sandwich-section-wrapper > .big-macs {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.sandwich-section-wrapper > .big-macs > .big-mac {
+    padding: 0px 10px;
+}
+
+.sandwich-section-wrapper > .big-macs > .big-mac img {
+    position: relative;
+    padding: 6px 10px;
+    width: 74px;
+    height: auto;
+    top: 120px;
+    box-shadow: black 0px 0px 20px;
+    transition: 0.3s;
+    filter: blur(0.4px);
+    order: 1;
+}
+
+.sandwich-section-wrapper > .big-macs > .big-mac img:hover {
+    box-shadow: gold 0px 0px 10px, inset black 0px 0px 10px;
+    filter: blur(0px);
+}
+
+.sandwich-section-wrapper > .big-macs > .big-mac img:active {
+    box-shadow: lightgreen 0px 0px 20px, inset black 0px 0px 20px;
+    filter: blur(2px);
+}
+
+/* Footlong styles */
+
+.sandwich-section-wrapper > .footlong-mac img {
+    position: relative;
+    padding: 6px 10px;
+    width: 100%;
+    height: 164px;
+    top: 120px;
+    box-shadow: black 0px 0px 20px;
+    transition: 0.3s;
+    filter: blur(0.4px);
+}
+
+.sandwich-section-wrapper > .footlong-mac img:hover {
+    box-shadow: gold 0px 0px 10px, inset black 0px 0px 10px;
+    filter: blur(0px);
+}
+
+.sandwich-section-wrapper > .footlong-mac img:active {
+    box-shadow: lightgreen 0px 0px 20px, inset black 0px 0px 20px;
+    filter: blur(2px);
 }

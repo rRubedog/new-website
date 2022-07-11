@@ -12,10 +12,15 @@
 
 /* Left column styles */
 
-.nav-wrapper > .left-column img {
+.nav-wrapper > .left-column > .icon img, .nav-wrapper > .left-column > .button-icon button img {
     width: 80px;
     height: auto;
     filter: invert(100%);
+}
+
+.nav-wrapper > .left-column > .button-icon button {
+    background-color: transparent;
+    border: none;
 }
 
 /* Center column styles */
